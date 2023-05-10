@@ -1,0 +1,123 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Unbounded", cursive;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 75px;
+  padding: 0;
+  position: relative;
+  bottom: 105px;
+  right: 30px;
+}
+
+h4 {
+  font-weight: 500;
+  position: relative;
+  left: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Unbounded", cursive;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin-top: 200px;
+  padding-top: 50px;
+  margin-bottom: 200px;
+}
+
+.search-engine-div {
+  font-family: "Unbounded", cursive;
+  padding-bottom: auto;
+  width: 1000px;
+  position: relative;
+  left: 10px;
+}
+
+#search-button {
+  display: block;
+  position: relative;
+  left: 1010px;
+  bottom: 38px;
+  width: 90px;
+  height: 38px;
+}
+
+#current-location-button {
+  display: block;
+  position: relative;
+  left: 1108px;
+  bottom: 75px;
+  width: 100px;
+  height: 38px;
+}
+
+.currentCityWeatherContainer {
+  height: 300px;
+  border: solid 3px lightgray;
+  border-radius: 20px;
+  margin-top: auto;
+}
+.currentCityContainer {
+  display: block;
+  position: relative;
+  bottom: -25px;
+  left: 20px;
+}
+.currentTempEmoji {
+  text-align: right;
+  position: relative;
+  bottom: 275px;
+  right: 190px;
+}
+
+.celsius-farenheit {
+  position: relative;
+  left: 610px;
+  bottom: 200px;
+  font-weight: 400;
+  font-size: 20;
+}
+
+.humidity-wind {
+  text-align: left;
+  position: relative;
+  bottom: 365px;
+  left: 950px;
+  font-family: "Unbounded", cursive;
+  font-weight: 300;
+}
+
+.card-body {
+  text-align: center;
+  margin: auto;
+}
+
+.mondayCard,
+.tuesdayCard,
+.wednesdayCard,
+.thursdayCard,
+.fridayCard,
+.saturdayCard {
+  display: block;
+  margin: auto;
+}
