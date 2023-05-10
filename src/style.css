@@ -121,3 +121,7 @@ ul {
   display: block;
   margin: auto;
 }
+
+center {
+  font-family: "Unbounded", cursive;
+}
